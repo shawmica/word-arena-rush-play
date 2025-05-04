@@ -1,0 +1,53 @@
+
+// This is a simplified English word list for the game
+// In a real application, you'd use a more comprehensive dictionary
+export const wordList = [
+  "able", "about", "above", "act", "add", "after", "again", "air", "all", "also", "always",
+  "and", "animal", "answer", "any", "are", "area", "around", "as", "ask", "at", "back",
+  "base", "be", "been", "before", "begin", "being", "below", "between", "big", "bird", "black",
+  "blue", "boat", "body", "book", "both", "box", "boy", "bring", "build", "but", "buy", "by",
+  "call", "came", "can", "car", "carry", "cat", "cause", "change", "check", "child", "city",
+  "class", "clear", "close", "cold", "come", "common", "complete", "contain", "correct", "could",
+  "country", "cover", "create", "cross", "cut", "dark", "day", "decide", "deep", "did", "differ",
+  "direct", "distant", "divide", "do", "does", "dog", "done", "door", "down", "draw", "drive",
+  "dry", "during", "each", "early", "earth", "east", "easy", "eat", "eight", "end", "enough",
+  "even", "ever", "every", "example", "eye", "face", "fact", "family", "far", "farm", "fast",
+  "father", "feel", "feet", "few", "field", "figure", "fill", "final", "find", "fine", "fire",
+  "first", "fish", "five", "fly", "follow", "food", "foot", "for", "force", "form", "found",
+  "four", "free", "friend", "from", "front", "full", "game", "gave", "get", "girl", "give",
+  "go", "gold", "good", "got", "great", "green", "ground", "group", "grow", "had", "half",
+  "hand", "hard", "has", "have", "he", "head", "hear", "heart", "heat", "heavy", "help", "her",
+  "here", "high", "hill", "him", "his", "hold", "home", "horse", "hot", "hour", "house", "how",
+  "hundred", "idea", "if", "important", "in", "inch", "include", "into", "iron", "is", "island",
+  "it", "job", "join", "just", "keep", "key", "kind", "king", "know", "land", "language", "large",
+  "last", "late", "laugh", "lead", "learn", "leave", "left", "less", "let", "letter", "life",
+  "light", "like", "line", "list", "listen", "little", "live", "long", "look", "love", "low",
+  "machine", "made", "main", "make", "man", "many", "map", "mark", "may", "me", "mean", "men",
+  "might", "mile", "mind", "mine", "minute", "miss", "money", "month", "moon", "more", "morning",
+  "most", "mother", "mountain", "move", "much", "music", "must", "my", "name", "near", "need",
+  "never", "new", "next", "night", "nine", "no", "north", "note", "nothing", "notice", "noun",
+  "now", "number", "object", "of", "off", "office", "often", "oh", "oil", "old", "on", "once",
+  "one", "only", "open", "or", "order", "other", "our", "out", "over", "own", "page", "pair",
+  "part", "past", "pattern", "people", "perhaps", "person", "picture", "place", "plain", "plan",
+  "plane", "plant", "play", "point", "port", "pose", "possible", "power", "present", "press",
+  "problem", "produce", "product", "pull", "put", "quick", "rain", "ran", "reach", "read", "ready",
+  "real", "receive", "record", "red", "remember", "rest", "right", "river", "road", "rock", "room",
+  "round", "rule", "run", "said", "same", "saw", "say", "school", "sea", "second", "see", "seem",
+  "self", "sentence", "serve", "set", "seven", "several", "shape", "she", "ship", "short", "should",
+  "show", "side", "simple", "since", "sing", "sit", "six", "size", "sleep", "slow", "small", "snow",
+  "so", "some", "son", "song", "soon", "sound", "south", "space", "speak", "special", "speed",
+  "spell", "stand", "star", "start", "state", "stay", "step", "still", "stop", "story", "street",
+  "strong", "study", "such", "sun", "sure", "surface", "table", "tail", "take", "talk", "teach",
+  "team", "tell", "ten", "test", "than", "that", "the", "their", "them", "then", "there", "these",
+  "they", "thing", "think", "this", "those", "thought", "three", "through", "time", "tiny", "to",
+  "today", "together", "told", "tone", "too", "took", "top", "toward", "town", "tree", "true",
+  "try", "turn", "two", "type", "under", "unit", "until", "up", "use", "usual", "very", "visit",
+  "voice", "vowel", "wait", "walk", "want", "war", "warm", "was", "watch", "water", "wave", "way",
+  "we", "week", "weight", "well", "went", "were", "west", "what", "wheel", "when", "where", "which",
+  "while", "white", "who", "why", "will", "wind", "window", "wish", "with", "woman", "women",
+  "wonder", "wood", "word", "work", "world", "would", "write", "year", "yes", "yet", "you", "young",
+  "your", "zoo", "zest", "yield", "yard"
+];
+
+// Create a Set for faster lookups
+export const wordListSet = new Set(wordList);
